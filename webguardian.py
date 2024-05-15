@@ -6,7 +6,6 @@
 #  \        /\  ___/| \_\ \    \_\  \  |  // __ \|  | \/ /_/ | |  |/ __ \|   |  \
 #   \__/\  /  \___  >___  /\______  /____/(____  /__|  \____ | |__(____  /___|  /
 #        \/       \/    \/        \/           \/           \/         \/     \/ 
-                                                                               
 #
 # Tool       : WebGuardian v1.2
 # Usage      : python3 webguardian.py example.com
@@ -170,10 +169,8 @@ def logo():
  \   \/\/   // __ \| __ \/   \  ___|  |  \__  \\_  __ \/ __ | |  \__  \  /    \ 
   \        /\  ___/| \_\ \    \_\  \  |  // __ \|  | \/ /_/ | |  |/ __ \|   |  \
    \__/\  /  \___  >___  /\______  /____/(____  /__|  \____ | |__(____  /___|  /
-        \/       \/    \/        \/           \/           \/         \/     \/ 
-                     """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
-
-                     Check out our new software, """+bcolors.BG_LOW_TXT+"""NetBot"""+bcolors.ENDC+""" for simulating DDoS attacks - https://github.com/skavngr/netbot
+        \/       \/    \/        \/           \/           \/         \/     \/ """+bcolors.ENDC+"""(The Multi-Tool Web Vulnerability Scanner)
+Check out our new software, """+bcolors.BG_LOW_TXT+"""NetBot"""+bcolors.ENDC+""" for simulating DDoS attacks - https://github.com/skavngr/netbot
     """
     print(logo_ascii)
     print(bcolors.ENDC)
